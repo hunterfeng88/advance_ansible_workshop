@@ -1,0 +1,7 @@
+- name: win_ssh_server installation
+  hosts: windows
+
+  vars_files:
+    - ./ad_user_vars.yml  
+  roles:
+    - win_domain_user
