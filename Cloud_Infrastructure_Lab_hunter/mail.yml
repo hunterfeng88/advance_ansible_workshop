@@ -1,0 +1,3 @@
+---
+- import_playbook: 01_osp-ansible-lab
+- import_playbook: 03_inmemory_inventory_playbook.yml
