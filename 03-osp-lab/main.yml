@@ -1,4 +1,5 @@
 ---
+- import_playbook: ./basic_evn.yml
 - import_playbook: 01_osp-setup/site-osp-setup.yml
 - import_playbook: 02_provision-4vm/site-prov-4vm.yml
 - import_playbook: 03_provision-3apps/site-prov-3app.yml 
